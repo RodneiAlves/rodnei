@@ -1,0 +1,109 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    background: rgb(59, 21, 21);
+}
+.header{
+    position:relative ;
+    background: rgb(216, 58, 58);
+    max-height: 150px;
+    display: flex;
+    width: 100%;
+}
+.logo{
+    float: left;
+    height: 20vw;
+     max-height: 150px;
+}
+.nav a {
+    display: none;
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.menu span{
+    display: none;
+    cursor: pointer;
+}
+/*#ruby:hover{
+    background-color: rgb(15, 207, 15);
+}
+#kagura:hover{
+    background-color: rgb(15, 207, 15);
+}
+#yin:hover{
+    background-color: rgb(15, 207, 15);
+}*/
+
+.menu span img{
+   width: 10vw; 
+ max-width: 70px;
+ position: absolute;
+}
+.nav a:hover{
+    width: 240px;
+    color: darkslateblue;
+    background-color: aqua;
+    transform: scale(1.1);
+}
+.box{
+    margin-bottom: 20px;
+    justify-items: center;
+    position: relative;
+    margin-top: 30px;
+    width: 80%;
+    height: auto;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+.box .boxb{
+    display: flex;
+}
+.box button{
+    margin-bottom: 5px;
+    background: rgb(101, 107, 12);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 3vw;
+    width: auto;
+    min-width: 20%;
+    height: 15%;
+}
+.yin{
+    display: block;
+    width: 80%;
+}
+.yin img{
+    width: 100%;
+    background-size: cover;
+}
+#historia{
+    width: 90%;
+    margin: 0 auto;
+    text-justify: inter-word;
+    background-color: rgb(49, 119, 96);
+}
+@media screen and (max-width:600px) {
+    .nav{
+        top: 150px;
+        background: rgb(73, 15, 15);
+        right: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav a{
+        width: 240px;
+    }
+    .menu span{
+        display: block;
+    }
+}

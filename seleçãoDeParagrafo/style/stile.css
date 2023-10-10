@@ -1,0 +1,12 @@
+main{
+    background-color: white;
+    margin: auto;
+    text-indent: 50px;
+    max-width: 80%;
+    height: 80%;
+    padding: 20px;
+}
+
+body{
+    background-color: green;
+}

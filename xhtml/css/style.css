@@ -1,0 +1,43 @@
+*{
+        padding:0px;
+        margin: 0px;
+        box-sizing: border-box;
+         
+}
+main{
+    background-color: blue;
+    height: 500px;
+}
+h1{
+    background-color: blue;
+    text-align: center;
+}
+div.submenu{
+    display: none;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: bisque;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    top: 200px;
+}
+div.menu:hover div.submenu{
+    display: block;
+    text-decoration: underline;
+    color: white;
+     
+    position: absolute;
+
+}
+button.btn{
+    background-color:white;
+    border: none;
+}
+button.btn:hover{
+    padding: 2px;
+
+}
+

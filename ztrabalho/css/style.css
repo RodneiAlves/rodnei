@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(148, 53, 216, 0.699);
+    text-align: center;
+}
+main{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+div{
+    margin: 20px;
+}
+ 
+label{
+font-weight: bolder;
+color: rgb(15, 17, 14);
+}
+.imagem{
+    margin:10%;
+}
+.link{
+    background-color: rgb(126, 51, 136);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+     margin-left: 8%;
+
+}
