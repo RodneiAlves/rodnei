@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+   background-color: yellow; 
+   text-align: center;
+}
+nav{
+    background-color: rgba(255, 255, 0, 0.733);
+   
+}
+nav > a {
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.288);
+color: white;
+margin: 10px;
+}
+h2{
+    background-color: rgba(0, 0, 255, 0.616);
+    text-align: center;
+}
+form{
+    background-color: rgba(0, 0, 255, 0.527);
+    text-align: center;
+}
+div{
+
+ margin-bottom: 5px;
+
+}
+main{
+   display: flex;
+  
+}
