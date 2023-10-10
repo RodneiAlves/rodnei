@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.menu{
+    display: inline;
+}
+
+ .sub{
+    display: none;
+ }
+
+
+
+
+body{
+    background-color: rgba(255, 0, 0, 0.548);
+}
