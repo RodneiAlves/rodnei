@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.form{
+    background-color: aqua;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+input{
+    margin: 10px;
+}
+button{
+   position: relative;
+   left: 110px;
+   padding: 8px;
+}
+
+.paragrafo{
+    background-color: rgb(255, 166, 0);
+}
+ 
+.bad{
+    background-color: blue;
+}
