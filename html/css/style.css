@@ -6,24 +6,28 @@
 h1{
     text-align: center;
     margin-bottom: 10px;
+    background-color: #a9b40f67;
 }
 body{
- height:100vh;
- background-color: #cf0d6893;
+    background-color: #9ca70c;
 }
 main{
-
-
-
-   height: 72vh; 
+   height: 84vh; 
 }
 
 main > img{
-    margin-top: 10%;
+    
     width: 100%;
-  
 }
-
+img{
+    position: absolute;
+    top:30%;
+}
+hr{
+    padding: 2px;
+    background-color: #e2f108;
+    
+}
 .sub{
     display: none;
     position: absolute;
@@ -38,22 +42,22 @@ main > img{
 }
 .sub a{
  display: block;
- background-color: #db2b7d;
- color: rgba(255, 255, 255, 0.705);
+ background-color: rgba(58, 55, 55, 0.945);
+ color: black;
  padding: 5px;
 
 }
 
 .sub a:hover{
-background-color: #851e4e;
+    background-color: #e2f108
 }
 button{
     border: none;
     cursor: pointer;
     padding: 5px;
     border-radius: 2px;
-    background-color: #f13a9644;
-    margin-left: 10px;
+    background-color: #07070544;
+   
  
    
 }
@@ -66,5 +70,5 @@ button{
 
 footer{
     text-align: center;
-    background-color: #db2b7d;
+    background-color: #d0e60d17;
 }
