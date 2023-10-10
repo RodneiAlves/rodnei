@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ body,html{
+text-align: center;
+ }
+main{
+margin-top:10%;
+
+display: inline-block;
+
+position: relative;
+}
+.foto{
+width: 300px;
+
+}
+.poke{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 100px;
+
+}
+.clicar{
+  position: absolute;
+  top: 78%;
+  left: 53%;
+  padding: 15px;
+  background-color: rgb(17, 32, 17);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 2px black;
+  font-size: 20px;
+  font-weight:bolder;
+} #inome{
+  position: absolute;
+  top: 65%;
+  left:13%;
+  padding: 15px;
+ 
+} 
+.limpar{
+  position: absolute;
+  top: 78%;
+  left: 14%;
+  padding: 15px;
+  background-color: rgb(17, 32, 17);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 2px black;
+  font-size: 20px;
+  font-weight:bolder;
+
+}

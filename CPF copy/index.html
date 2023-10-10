@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+  <style>
+    .erro{
+        color: red;
+        font-size: 13px;
+        margin: 5px;
+        
+    }
+  </style>
+</head>
+<body>
+    <h1>Meu formulario</h1>
+  <form autocomplete="off" class="formulario">
+            <legend>Dados pessoais</legend>
+            
+               <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" class=" nome validar" placeholder="Digite seu nome"></p>
+               
+               <p><label for="isobrenome">sobre nome:</label> <input type="text" name="sobrenome" class=" sobrenome validar" id="isobrenome" placeholder="Digite seu sobre nome"></p>
+               <p><label for="iusuario">Usuario:</label> <input type="text" name="nome" id="iusuario" class=" usuario validar" placeholder="Digite seu nome"></p>
+               <p><label for="icpf">CPF:</label> <input type="text" name="nome" id="icpf"  class="cpf validar"placeholder="Digite seu nome"></p>
+               <p><label for="isenha">Senha:</label> <input type="password" name="senha" class=" senha validar" id="isenha" placeholder="Digite sua senha" ></p>
+               <p><label for="senha">Repetir Senha:</label> <input type="password" name="senha" class="repetirsenha validar" id="senha" placeholder="Digite sua senha" ></p>
+          
+          
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+       </form>
+</html>
+<script src="javaCPF/script.js"></script>
+<script src="javas/script.js"></script>
+
+
+</body>
+
+</html>

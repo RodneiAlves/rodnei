@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <h1>Meu formulario</h1>
+    <main>
+           <form autocomplete="off">
+           
+           <fieldset>
+            <legend>Dados pessoais</legend>
+            
+               <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" placeholder="Digite seu nome" required></p>
+               <p><label for="isobrenome">sobre nome:</label> <input type="text" name="sobrenome" id="isobrenome" placeholder="Digite seu sobre nome"></p>
+               <p><label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" ></p>
+               <p>email:<input type="email" name="email" id="iemail"></p>
+               <p><input type="radio" name="ap" id="imasculino">Masculino  <input type="radio" name="ap" id="ifeminino">Feminino</p>
+               <p><input type="checkbox" name="futebol" id="ifutebol">Futebol</p>
+                         <p><input type="text" name="res" id="ires"></p>
+           </fieldset>
+          
+           <input type="submit" value="Enviar" onclick="verificar()">
+           <input type="reset" value="Limpar">
+       </form>
+    </main>
+  
+</html>
+<script src="javas/script.js"></script>
+</body>
+
+</html>
