@@ -1,13 +1,16 @@
 
-function carregar(){
+class carregar{
+constructor(){
+let imagem =document.querySelector('.imsg')
 
-var imagem =document.getElementById('msg')
-var foto = document.getElementById('imagem')
-var data = new Date()
-//var hora = data.getHours()
-var hora = 7
+let foto = document.getElementById('imagem')
+let data = new Date()
+let hora = data.getHours()
+let segundos =data.getMinutes();
+console.log(segundos)
 
-imagem.innerHTML =`agora são ${hora} horas`
+
+imagem.innerHTML =`agora são ${hora}:${segundos} minutos`
 if(hora >=0 && hora < 12){
     foto.src ='manhão.png'
 
@@ -17,5 +20,7 @@ if(hora >=0 && hora < 12){
 }else{
 foto.src ='noite.png'
 }
-
 }
+}
+let p1 =new carregar();
+p1()

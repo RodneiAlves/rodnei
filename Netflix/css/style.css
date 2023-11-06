@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: unset;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+   
+}
+
+button{
+ padding: 4px;
+ border-radius: 10px;
+ border: none;
+ font-size: 20px;
+ font-weight: bolder;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+   background-color: black;
+   color: beige;
+    transition: 1s;
+}
+
+
+iframe{
+    box-sizing: border-box;
+ width: 100%;
+ height: 90vh;
+ border: none;
+
+
+}
+
+

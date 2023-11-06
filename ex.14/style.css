@@ -1,28 +1,42 @@
-body{
-
-    background: rgba(0, 0, 0, 0.534);
-    font: normal 20pt Arial;
-
+*{
+    margin: 0;
+    padding: 0;
 }
-header{
-    color: bisque;
+
+header h1{
+    background-color: rgb(148, 139, 125);
     text-align: center;
-  
+ 
 }
 section{
-background: white;
-border-radius: 10px;
-padding: 15px;
-width: 500px;
-margin: auto;
-box-shadow: 5px 5px 10px black;
-text-align: center;
-
+    margin: auto;
+    max-width: 500px;
+    background-color: rgba(172, 160, 142, 0.932);
+    text-align: center;
+    height: 567px;
+   
+ 
 }
 
-footer{
-color:aliceblue(131, 155, 145);
-text-align: center;
-font-style: italic;
+div#msg{
+ background-color: aqua;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;  
+  padding: 20px;
 
+
+}
+section #imagem{
+   text-align: center;
+  margin-top: 20%;
+  
+}
+footer{
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: blanchedalmond;
+  margin-top: 2px;
+ 
 }
