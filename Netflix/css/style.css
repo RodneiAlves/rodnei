@@ -17,43 +17,54 @@
  justify-content: center;
 background-color: red;
 text-align: center;
-color: white;
+color: rgb(189, 27, 27);
 grid-area: 1/1/2/3;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(206, 206, 206);
+    color: white;
 }
-h1:hover{
-    transform:translate(20px,-6px);
+
+
+
+.img:nth-child(2){
+    text-decoration: none;
+     background-image: url(../imagens/Pizza\ -\ Arte\ da\ Pizza.jpg);
+     background-size: cover;
+     background-position: bottom left;
+    font-family: fantasy;
+    text-transform: uppercase;   
+    grid-area: 2/1/2/3 ;
+    background-color: aqua;
+  
+    
+
+}
+ul ,li, a{
+ list-style-type: none;
+ text-indent: 2px;
+ color:wheat;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight:bolder;
+ text-decoration: none;
+
+}
+a:hover{
+    background-color: dimgray;
+}
+li:hover{
+
+    transform: translate(20px,-7px);
     transition: 1s;
 }
 
 
-.img:nth-child(2){
-background-image: url(../confira-agora-os-25-melhores-animes-que-ja-foram-criados-1.webp);
-background-size: cover;
-background-position: center left;
-background-repeat: no-repeat;
-grid-area: 2/1/2/3;
 
 
-    }
-    ul{
-        list-style-type: none;
-    }
- ul li a {   
-    color: wheat;
-    text-decoration: none;
-    font-family: fantasy;
-    margin-left: 2px;
-    text-transform: uppercase;
- }   
  div:nth-child(3){
+    grid-template-columns: 1fr;
     background-color: rgb(124, 114, 114);
     grid-area: 3/1/3/3;
-    z-index: 1;
-
     color: white;
     }
     div:nth-child(4){
