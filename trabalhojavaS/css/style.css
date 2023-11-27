@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 .section{
-    background-image: url(../gifs-de-estrelas-2.gif);
+    
     background-repeat: no-repeat;
     background-position:bottom;
     background-size: cover;
+    overflow-y: hidden;
     height: 100vh;
 }
 .titulo{
@@ -16,11 +17,12 @@
     padding: 20px;
     margin-bottom: 20px;
     color: white;
+   background-color: black;
 }
 .result{
 display: grid;
 justify-content: center;
-opacity: 70%;
+
 }
 .res{
 width: 100%;
@@ -31,6 +33,7 @@ box-shadow: 0px 0px 10px rgba(27, 27, 27, 0);
 footer{
     text-align: center;
     color: white;
+    background-color: black;
      display: flex;
      justify-content:center;
      align-items: bottom ;
