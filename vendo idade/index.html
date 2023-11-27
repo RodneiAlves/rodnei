@@ -5,38 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mostrando idade</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/style.css">
 </head>
 <body>
     <header>
-        <h1>Mostrando idade </h1>
+        <h1>Mostrando idade</h1>
     </header>
 
-<section>
+<section class="section">
     
 <div>
-   <p> ano de Nascimento  <input type="number" name="ano" id="ano"> </p>
+  <label for="anonascimento">Ano de nascimento:</label> <input type="number" name="ano" id="anonascimento">
 <hr>
- <p>sexo: 
-    <input type="radio" name ="radsex" id ="mas" checked>
+<label for="mas">Sexo:</label>
+ <input type="radio" name ="radsex" id ="mas" checked>
     <label for="mas"> Masculino </label>
     <input type="radio" name = "radsex" id="fem">
     <label for="fem">Feminino </label>
-</p>
-
-<p>
-   <input type="button" value="verificar" onclick = "verificar()">
-</p>
-<hr>
-
 </div>
+<input type="button" value="Verificar" class="verificar">
 <div id="res"> preencha os dados a cima para mostra o Resultado</div> &#x1F596
 </section>
 
  <footer>
-    <p>&copy; curso em video</p>
+    <p>&copy; </p>
  </footer>
-<script src="script.js"></script>
+<script src="script/script.js"></script>
 
 </body>
 </html>
