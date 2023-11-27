@@ -11,7 +11,7 @@ axios(api)
   img.src=dado.url
  }
  if(dado.title) {
-  let header=document.querySelector('.nome')
+  let header=document.querySelector('.titulo')
   let h1=document.createElement('h1')
   h1.innerHTML=dado.title
   header.appendChild(h1)
