@@ -8,12 +8,13 @@
     background-position:bottom;
     background-size: cover;
     overflow-y: hidden;
-    min-height:100vh;
+    height:80vh;
 }
 .titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 20px;
+   margin-bottom: 20px;
     color: white;
    background-color: black;
 }
