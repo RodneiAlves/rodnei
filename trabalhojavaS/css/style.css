@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 .section{
-    background-repeat: no-repeat;
-    background-position:bottom;
-    background-size: cover;
-    overflow-y: hidden;
-    height:80vh;
+    height:100vh;
 }
 .titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
