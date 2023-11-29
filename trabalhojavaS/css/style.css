@@ -34,20 +34,5 @@ footer{
     color: white;
     background-color: black;
 }
-@media (max-width:768px){
-    .res{
-          width: 100%;
-        } 
 
-        .result{
-       margin-top: 500px;
-          
-        }
-      
-.section{
-    background-color: black;
-}
-
-
-}
 
