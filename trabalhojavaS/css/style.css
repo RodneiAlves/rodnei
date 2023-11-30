@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 html{
-    height:100vh;
+    overflow-y: hidden;
 }
 
 .section{
     display: grid;
     grid-template-rows: 200px;
     background-color: aqua;
+ 
+     height: 100vh;
     
 }
 .titulo{
