@@ -9,8 +9,7 @@ html{
 
 .section{
     display: grid;
-    grid-template-rows: 200px ;
-    height: 100vh;
+    grid-template-rows: 200px;
     background-color: aqua;
     
 }
