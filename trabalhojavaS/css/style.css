@@ -3,8 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-.section{
+html{
     height:100vh;
+}
+
+.section{
+    display: grid;
+    grid-template-rows: 200px ;
+    height: 100vh;
+    background-color: aqua;
+    
 }
 .titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,20 +22,12 @@
     color: white;
    background-color: black;
 }
-.result{
-display: grid;
-justify-content: center;
 
-}
 .res{
+    margin-top:40%;
 width: 100%;
-height: 400px;
 
 }
-footer{
-    text-align: center;
-    color: white;
-    background-color: black;
-}
+
 
 
