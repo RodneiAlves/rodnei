@@ -3,13 +3,15 @@
     margin:0px;
     box-sizing: border-box;
 }
-
+html{
+    overflow-y: hidden;
+}
 
 
 .section{
     display: grid;
     grid-template-rows: 100px ;
-    background-color: aqua;
+    background-color: rgb(38, 39, 39);
      height: 100vh;
     
 }
