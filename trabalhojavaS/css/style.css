@@ -5,19 +5,17 @@
 }
 
 
-
-.section{
+.section {
     display: grid;
     grid-template-rows: 12% ;
+    background: fixed;
     background-color: rgb(38, 39, 39);
     gap: 20%;
-    height:100vh;
+    min-height: 100vh;
     
 }
 .result{
-    margin: 0 auto;
     max-width:800px;
-  
 }
 .section .titulo {
  display: flex;
@@ -33,6 +31,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .res{
     width: 100%;
 }
-
+.text{
+    background-color: white
+}
+.text p{
+    color: black;
+}
 
 
