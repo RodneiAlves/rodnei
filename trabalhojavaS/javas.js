@@ -5,10 +5,10 @@ axios(api)
 .then(dados=>{
  
  let dado= dados.data
- console.log(dado)
+
  if(dado.url) {
-  let img=document.querySelector('.res')
-  img.src=dado.url
+  let img=document.querySelector('.imagem')
+  img.src=dado.url;
  }
  if(dado.title) {
   let header=document.querySelector('.titulo')

@@ -16,6 +16,7 @@
 }
 .container{
     max-width:800px;
+    background-color: aqua;
 }
 .section .titulo {
  display: flex;
@@ -29,7 +30,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .imagem{
-    width: 100%;
+    width: 80%;
 }
 .text{
     background-color: white
