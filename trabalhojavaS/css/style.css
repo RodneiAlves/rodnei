@@ -14,7 +14,7 @@
     min-height: 100vh;
     
 }
-.result{
+.container{
     max-width:800px;
 }
 .section .titulo {
@@ -28,7 +28,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 }
-.res{
+.imagem{
     width: 100%;
 }
 .text{
