@@ -1,97 +1,45 @@
-:root{
---viewpot:100vh;
+.container{
+    border: 3px solid rgba(255, 0, 0, 0.356);
+    height:100vh;
 }
-
-
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.row{
+    border: 2px solid rgb(72, 255, 0);
+    height: 100%;
 }
-header h1{
-  background-color: red;
-  text-align: center;
-  padding: 10px;
- font-family: 'Anton', sans-serif; 
-}
-.primeira{
- height:var(--viewpot);
- background-color: yellow;
-}
-
-button{
-  padding: 5px;
-   font-weight: bolder;
-   font-size: 14px;
-   border: none;
-   margin-left: 2px;
-   box-shadow: 2px 1px 3px black;
+.col{
+    border: 1px solid blue;
+    height: 200px;
 
 }
-.menu{
- display: inline-block;
-}
-button:hover{
-  background-color: rgba(0, 0, 255, 0.281);
-
-}
-.sub{
-  display: none;
-
-}
- .menu:hover .sub{
-  display:block;
-  position: absolute;
- }
- a{
-  display: block;
-  background-color: rgba(255, 196, 0, 0.979);
-  width: 141px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  margin-bottom: 1px;
-  box-shadow: 5px 1px 7px black;
-
- }
- a:hover{
-  background-color: rgb(89, 89, 209);
- }
-
-
-.card-1{
- display: grid;
- justify-content: center;
- overflow: hidden;
-
-}
- img{
-  max-width: 200px;
-  width: 100%;
-}
-.card-1 p{
-  max-width: 300px;
-  width: 100%;
-  background-color: white;
-  border-radius: 20px 20px 20px 0px;
-  text-indent: 10px;
-  margin-top: 10px;
-  
-}
-nav{
-  background-color: white;
+.impar{
+    background-color: rgba(255, 255, 0, 0.644);
 }
 
-.segunda{
-  height:var(--viewpot);
-  background-color: rgba(255, 255, 0, 0.863);
+.par{
+    margin-top: 20px;
+    background-color: rgba(0, 128, 0, 0.651);
+}
+.par:hover{
+    height: 40px;
+    transform: rotate(360deg);
+    transition: 1.3s;
+   
+}
+.impar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.par p{
+    display: none;
+    font-size: 19px;
+    font-weight: bolder;
 
-
-
-
+}
+.par:hover p{
+    display:inline;
+}
 
 
  
