@@ -1,26 +1,23 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.form{
-    background-color: aqua;
+
+header h1{
     text-align: center;
-    max-width: 500px;
-    margin: auto;
-}
-input{
-    margin: 10px;
-}
-button{
-   position: relative;
-   left: 110px;
-   padding: 8px;
+    background-color: rgba(0, 255, 255, 0.363);
 }
 
-.paragrafo{
-    background-color: rgb(255, 166, 0);
+
+form{
+    background-color: rgba(0, 128, 0, 0.377);
+   
 }
- 
-.bad{
-    background-color: blue;
+.form-control{
+    width: 80%;
+    margin: 0 auto;
+}
+label{
+    text-indent: 20px;
+    margin-bottom: 5px;
+}
+.btn{
+
+    margin: 20px;
 }
